@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2018, 8:47:29 PM
+    Author     : MustafaSaad
+*/
+
+.button{
+    -fx-background-color: #28A9BE;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 20px;
+    -fx-text-align: center;
+
+    -fx-margin: 4px 2px;
+
+
+}
+#btnsign{
+    -fx-font-weight:Bold;
+    -fx-font-size: 22px;
+}
+#btnsign1{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight:Bold;
+    -fx-font-size: 15px;
+}
+#Txtuser{
+    -fx-text-fill: #000000;
+
+}
+#passuser{
+    -fx-text-fill: #000000;
+}
+#userfield{
+    -fx-text-fill: #000000;
+    -fx-font-weight:Bold;
+    -fx-font-size: 15px;
+}
+#usermail{
+    -fx-text-fill: #000000;
+    -fx-font-weight:Bold;
+    -fx-font-size: 15px;
+}
+#userPass{
+    -fx-text-fill: #000000;
+    -fx-font-weight:Bold;
+    -fx-font-size: 15px;      
+}
+#btnSubmit{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight:Bold;
+    -fx-font-size: 15px;
+}

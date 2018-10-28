@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="873.0" style="-fx-background-color: #20120F;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DreamsCenter.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="481.0" prefWidth="900.0" style="-fx-background-color: #20120F;">
+         <children>
+            <Pane layoutX="477.0" layoutY="37.0" prefHeight="392.0" prefWidth="358.0" style="-fx-background-color: #FFFFFF;">
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </padding>
+               <children>
+                  <JFXTextField fx:id="Txtuser" focusColor="#b1a1a1" layoutX="58.0" layoutY="80.0" prefHeight="34.0" prefWidth="272.0" promptText="E_mail/UserName" stylesheets="@Style.css" unFocusColor="#b1a1a1">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <ImageView fitHeight="29.0" fitWidth="22.0" layoutX="36.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../DreamsCenter/Images/U.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="36.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../DreamsCenter/Images/U.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="btnsign" buttonType="RAISED" layoutX="59.0" layoutY="247.0" prefHeight="65.0" prefWidth="258.0" style="-fx-background-color: #9A2B26;" stylesheets="@Style.css" text="Sign IN" />
+                  <Hyperlink layoutX="108.0" layoutY="338.0" prefHeight="35.0" prefWidth="157.0" text="Forget Password?" textFill="#9a2b26">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Hyperlink>
+                  <JFXPasswordField focusColor="#b1a1a1" layoutX="58.0" layoutY="160.0" prefHeight="25.0" prefWidth="272.0" promptText="Password" unFocusColor="#b1a1a1">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXPasswordField>
+                  <ImageView fitHeight="22.0" fitWidth="29.0" layoutX="306.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../DreamsCenter/Images/Invisible.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fitHeight="500.0" fitWidth="719.0" layoutX="-282.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../DreamsCenter/Images/sss.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="40.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Dreams" wrappingWidth="332.13671875">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Text>
+            <Text layoutX="51.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" If you want to be successful, learn from the mistakes of others and not from their success stories." wrappingWidth="340.44140625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <JFXButton id="btnsign1" buttonType="RAISED" layoutX="51.0" layoutY="290.0" onAction="#handleButtonSignUp" prefHeight="35.0" prefWidth="157.0" style="-fx-background-color: #B1322C;" stylesheets="@Style.css" text="Sign UP">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
